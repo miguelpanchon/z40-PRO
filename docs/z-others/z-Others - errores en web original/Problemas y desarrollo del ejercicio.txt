@@ -1,0 +1,113 @@
+
+*******************************************
+análisis rápido de la web stockmusical.com
+*******************************************
+hecha con prestashop, problemas con los estilos (sobreescritos)
+
+
+
+*********************************
+media queries y puntos de ruptura
+*********************************
+encontrado un punto de ruptura en 767 -> "versión pequeña" por debajo pero no es móvil
+otro en 991 -> "versión grande" por encima
+Entre 767 y 991 tiene un comportamiento raro / no deseado con firefox en la parte alta (no lo voy a emular)
+hay elementos que tienen su propio puntos de ruptura (ver item22)
+
+ignorados ambos puntos de ruptura
+utilizo el estándar propuesto en el proyecto (movíl, tableta, sobremesa/portátil)
+
+la versión movil  -> es "la pequeña"
+parece que no hay versión tablet-> me la invento para hacer el ejercicio propuesto de 3 media quieries
+la version sobremesa es "la grande"
+
+
+
+*****************************************
+comportamiento de los elementos de la web
+*****************************************
+Pruebo a estirar el viewport y analizo el compportamiento de cada uno de los elementos.
+La idea es ver cómo solucionarlo para que el comportamientamiento sea similar
+
+Parecen varios componentes o items puestos en columna
+
+
+*item1 (negro) -> eqivalente a un flexbox horizontal con wrap. Los elementos se ponen uno detrás de otro
+Cuando llega al final de linea cambia de linea lo empuja para abajo
+
+*item2 (menú, buscar, etc de color blanco) -> la distribución es:  menu buscar            stock-musical         acceder carrito 
+en el entorno de los 300 pixeles parecen estar uno al lado del otro sin más, cuando se amplía el viewport hasta 500 se puede apreciar.
+div para agrupar menu y buscar y lo mismo con acceder carrito y distribuir o meter un gap entre ellos
+
+
+*item3-> slider. Se puede hacer con esto sólo con HTML y CSS: https://www.youtube.com/watch?v=1CZhGDU5cWM
+
+*item4-> call to action para comprar un Motu M4. -> imagen con un botón encima
+
+*item5-> en vertical: texto, horizontal rule y grid a dos columnas con 5 filas de imágenes con un texto debajo cada una
+
+*item6 -> titulo y texto
+
+*item7 -> +Info en blanco, clicable entero
+
+*item8 -> Imagen jupiter
+
+*item9 -> Imagen mapex
+
+*îtem10 -> imagen schechter
+
+*item11 -> aprovecha tus liquidaciones. Slider con 3 imágenes por slide, debajo hay una descripción la marca y el precio (rojo-naranja, con dos decimales)
+
+*item12 -> horizontal rule naranja
+
+*item13 -> texto: nuestras marcas de instrumentos destacadas. color gris
+
+*item14 -> texto: Selección de fabricantes y marcas de instrumentos de música de calidad y prestigio con precios económicos y rebajados. color gris
+		con con espacio en top, right, bottom y left casi iguales (?). Tiene un borde fino en negro. 
+		En un cuadro que no llega al final del viewport.
+
+*item15 -> 12 imágenes en 3 columnas, 4 filas. 
+		se comporta como un grid Ampliando el tamaño del viewport, los elementos crecen pero nada cambia de sitio
+
+*item16 -> horizontal rule naranja
+
+*item17 -> texto: Últimos artículos del blog
+		header(?)
+
+*item18 -> dos elementos en horizontal, cada uno con los siguientes elementos:
+		imagen con texto y logo superupesto, 
+		frase en naranja 
+		texto
+		link-> read more... (al cambiar el tamaño del viewport no cambia la cantidad de texto dentro. (Gris clarito)
+		comments (gris clarito)
+
+	las imagenes acaban a la vez (mismo start del top, mismo tamaño)
+	los textos en naranja van a la misma altura
+	los textos en negro tienen distintas longitudes
+
+item19 -> igual que 18 con otros textos y otras imágenes
+
+item20 -> caja con margin por todas partes. Alineado a la derecha los iconos de facebook, instagram y youtube. 
+	el ancho de la caja coincide con item19 e item18
+
+item21 -> dos cajas en vertical.
+		en la primera -> en horizontal alineado a la izquierda, 2 elementos:
+			bandera europea
+			ENVÍOS A TODA EUROPA A BAJO COSTE. CONSÚLTANOS SHIPPING TO ALL EUROPE AT LOW COST AND MERCHANDISE INSURANCE
+		tiene un margen 
+	
+		segunda caja (debajo):  7 logos
+
+item22 -> 4 elementos puestos en línea si hay espacio y en columna de a uno por debajo de 481 pixeles
+		cada elemento lleva dentro iconos, texto, etc
+
+item23 -> candidato a footer con 3 bloques de texto: 
+		© 2006 - 2023 Stockmusical 
+		Todos los derechos reservados |
+		Todos nuestros precios se muestran con IVA incluido
+	
+	se comporta como un flex horizontal con wrapper.
+	
+
+
+

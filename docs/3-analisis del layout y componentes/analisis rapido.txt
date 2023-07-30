@@ -1,0 +1,24 @@
+**************************
+análisis rápido de la web
+**************************
+
+hay muchos errores que llevan a que varios estilos css no se lleguen a aplicar (log de errores en fichero a parte, capturas en fichero a parte). 
+Le da un aspecto "simplón" a los elementos gráficos de la web
+
+
+hecha con prestashop
+
+media queries
+	encontrado un punto de ruptura en 767 -> "versión pequeña" por debajo pero no es móvil
+	otro en 991 -> "versión grande" por encima
+	Entre 767 y 991 tiene un comportamiento raro / no deseado con firefox en la parte alta (no lo voy a emular)
+
+
+ignorados ambos puntos de ruptura
+utilizo el estándar propuesto en el proyecto (movíl, tableta, sobremesa/portátil)
+
+la versión movil  -> es "la pequeña"
+parece que no hay versión tablet-> me la invento para hacer el ejercicio propuesto de 3 media quieries
+la version sobremesa es "la grande"
+
+

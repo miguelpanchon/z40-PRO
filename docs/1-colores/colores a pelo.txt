@@ -1,0 +1,5 @@
+naranja #f87a01
+blanco #f6f6f6
+
+naranja de la horizontal bar #fcad2a
+

@@ -1,0 +1,64 @@
+
+/* reset a mano para cumplir el enunciado (ya esta hecho en 1-normalize.css) */
+* {
+  margin:0;
+  padding:0;
+  /* box-sizing: border-box; */
+  /* me fastidia la sección de categorías de instrumentos */
+}
+  
+/* CSS media queries & responsive web design tutorial for beginners dave gray*/
+
+ /* styles comunes a todos los media queries */
+ body {
+  min-height:100svh;
+  display:flex;
+  flex-direction: column;
+  --fondo-clarito: white;
+  --fondo-oscuro: black;
+  --letra-clarita: white;
+  --letra-oscura: black;
+  --letra-color: orange;
+
+}
+/* añadidos a mano */
+ul{
+  list-style-type: none;
+}
+
+
+
+  header, nav, main, footer {
+    display:flex;
+    flex-direction: column;
+    place-content:center; 
+    align-items: center;
+    justify-content: start;
+    text-align:center; 
+  }
+  
+  main {
+    
+    flex-grow:1;  
+    width:100spv;
+  }
+   
+  footer {
+    bottom:0;
+  }
+
+  nav {
+    background-color: var(--fondo-clarito) ;
+   }  
+
+   .header1{
+    background-color: var(--fondo-oscuro);
+    color: var(--letra-clarita);
+    padding:10px;
+  }
+  .header2{
+    background-color: var(--fondo-clarito);
+    color:var(--letra-oscura);
+  }
+
+  

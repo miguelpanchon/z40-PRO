@@ -1,0 +1,6 @@
+Problemas
+*********
+
+web viva (ha habido cambios desde la última vez)
+en funcion del navegador me ha parecido ver que el comportamiento cambia bastante (elementos distintos)
+hay tamaños en los que el responsive falla con algún glitch en sliders

@@ -1,0 +1,116 @@
+Esta página utiliza la propiedad no estándar “zoom”. Considere usar calc() en los valores de propiedad relevantes, o usar “transform” junto con “transform-origin: 0 0”. www.stockmusical.com
+JQMIGRATE: Migrate is installed, version 3.1.0 bottom-b477162701.js:92:460
+Algunas cookies están haciendo mal uso del atributo recomendado  “SameSite“ 2
+El recurso en “https://adservice.google.com/pagead/regclk?auid=1901425492.1687376408&ref=www.google.com&url=https%3A%2F%2Fwww.stockmusical.com%2F&tft=1687385308666&tfd=1164&frm=0” ha sido bloqueado porque está habilitado el bloqueo de contenido. www.stockmusical.com
+ ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ bottom-b477162701.js:524:17011
+ Instant search powered by ThunderFinder bottom-b477162701.js:524:17063
+ See more in https://addons.prestashop.com/es/busquedas-filtros/48581-ultrarapido-buscador.html bottom-b477162701.js:524:17189
+ ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ bottom-b477162701.js:524:17371
+El recurso en “https://www.stockmusical.com/themes/warehousechild/assets/css/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0” precargado con precarga de enlace no se usó en unos pocos segundos. Asegúrese de que todos los atributos de la etiqueta de preload estén configurados correctamente. www.stockmusical.com
+El recurso en “https://www.stockmusical.com/themes/warehousechild/assets/css/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0” precargado con precarga de enlace no se usó en unos pocos segundos. Asegúrese de que todos los atributos de la etiqueta de preload estén configurados correctamente. www.stockmusical.com
+Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:1:663
+Error al interpretar el valor para '-webkit-text-size-adjust'.  Declaración rechazada. theme-8e11be2702.css:7:868
+Pseudo-clase o pseudo-elemento desconocido '-ms-expand'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:21699
+Pseudo-clase o pseudo-elemento desconocido '-ms-input-placeholder'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:21893
+Pseudo-clase o pseudo-elemento desconocido '-ms-value'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:22098
+Error al interpretar el valor para 'border-top-left-radius'.  Declaración rechazada. theme-8e11be2702.css:7:50421
+Error al interpretar el valor para 'border-top-right-radius'.  Declaración rechazada. theme-8e11be2702.css:7:50450
+Error al interpretar el valor para 'border-bottom-right-radius'.  Declaración rechazada. theme-8e11be2702.css:7:50508
+Error al interpretar el valor para 'border-bottom-left-radius'.  Declaración rechazada. theme-8e11be2702.css:7:50539
+Pseudo-clase o pseudo-elemento desconocido '-ms-value'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:62217
+Pseudo-clase o pseudo-elemento desconocido '-ms-expand'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:62459
+Pseudo-clase o pseudo-elemento desconocido '-ms-thumb'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:64065
+Pseudo-clase o pseudo-elemento desconocido '-moz-focus-outer'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:64148
+Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:64588
+Pseudo-clase o pseudo-elemento desconocido '-ms-thumb'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:65374
+Pseudo-clase o pseudo-elemento desconocido '-ms-thumb'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:65694
+Pseudo-clase o pseudo-elemento desconocido '-ms-thumb'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:65736
+Pseudo-clase o pseudo-elemento desconocido '-ms-track'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:65793
+Pseudo-clase o pseudo-elemento desconocido '-ms-fill-lower'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:65948
+Pseudo-clase o pseudo-elemento desconocido '-ms-fill-upper'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:66052
+Pseudo-clase o pseudo-elemento desconocido '-ms-thumb'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:66370
+Error al interpretar el valor para 'border-radius'.  Declaración rechazada. theme-8e11be2702.css:7:76098
+Error al interpretar el valor para 'border-radius'.  Declaración rechazada. theme-8e11be2702.css:7:76327
+Error al interpretar el valor para 'border-radius'.  Declaración rechazada. theme-8e11be2702.css:7:76591
+Error al interpretar el valor para 'border-top-left-radius'.  Declaración rechazada. theme-8e11be2702.css:7:76644
+Error al interpretar el valor para 'border-top-right-radius'.  Declaración rechazada. theme-8e11be2702.css:7:76673
+Error al interpretar el valor para 'border-bottom-right-radius'.  Declaración rechazada. theme-8e11be2702.css:7:76733
+Error al interpretar el valor para 'border-bottom-left-radius'.  Declaración rechazada. theme-8e11be2702.css:7:76764
+Propiedad desconocida 'orphans'.  Declaración rechazada. theme-8e11be2702.css:7:79010
+Propiedad desconocida 'widows'.  Declaración rechazada. theme-8e11be2702.css:7:79019
+Propiedad desconocida 'orphans'.  Declaración rechazada. theme-8e11be2702.css:7:149060
+Propiedad desconocida 'widows'.  Declaración rechazada. theme-8e11be2702.css:7:149069
+Propiedad desconocida '-moz-osx-font-smoothing'.  Declaración rechazada. theme-8e11be2702.css:7:170233
+Pseudo-clase o pseudo-elemento desconocido '-ms-clear'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:171043
+Propiedad desconocida '-moz-osx-font-smoothing'.  Declaración rechazada. theme-8e11be2702.css:7:171996
+Pseudo-clase o pseudo-elemento desconocido '-ms-expand'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:7:172671
+Error al interpretar el valor para 'height'.  Declaración rechazada. theme-8e11be2702.css:7:173534
+Propiedad desconocida '-moz-box-lines'.  Declaración rechazada. theme-8e11be2702.css:7:180264
+Propiedad desconocida 'box-lines'.  Declaración rechazada. theme-8e11be2702.css:7:180283
+Propiedad desconocida 'box-flex'.  Declaración rechazada. theme-8e11be2702.css:7:180420
+Propiedad desconocida '-moz-flex'.  Declaración rechazada. theme-8e11be2702.css:7:180432
+Propiedad desconocida 'box-pack'.  Declaración rechazada. theme-8e11be2702.css:7:193756
+Propiedad desconocida '-moz-justify-content'.  Declaración rechazada. theme-8e11be2702.css:7:193785
+Propiedad desconocida 'box-align'.  Declaración rechazada. theme-8e11be2702.css:7:193928
+Propiedad desconocida '-moz-align-items'.  Declaración rechazada. theme-8e11be2702.css:7:193951
+Propiedad desconocida '-moz-box-lines'.  Declaración rechazada. theme-8e11be2702.css:7:194101
+Propiedad desconocida 'box-lines'.  Declaración rechazada. theme-8e11be2702.css:7:194120
+Propiedad desconocida 'box-flex'.  Declaración rechazada. theme-8e11be2702.css:7:194258
+Propiedad desconocida '-moz-flex'.  Declaración rechazada. theme-8e11be2702.css:7:194270
+Propiedad desconocida '-moz-flex-grow'.  Declaración rechazada. theme-8e11be2702.css:7:199338
+Propiedad desconocida 'box-align'.  Declaración rechazada. theme-8e11be2702.css:7:218112
+Propiedad desconocida '-moz-align-items'.  Declaración rechazada. theme-8e11be2702.css:7:218138
+Propiedad desconocida 'box-pack'.  Declaración rechazada. theme-8e11be2702.css:7:218250
+Propiedad desconocida '-moz-justify-content'.  Declaración rechazada. theme-8e11be2702.css:7:218279
+Propiedad desconocida '-moz-box-lines'.  Declaración rechazada. theme-8e11be2702.css:7:231306
+Propiedad desconocida 'box-lines'.  Declaración rechazada. theme-8e11be2702.css:7:231325
+Propiedad desconocida 'box-flex'.  Declaración rechazada. theme-8e11be2702.css:7:231458
+Propiedad desconocida '-moz-flex'.  Declaración rechazada. theme-8e11be2702.css:7:231470
+Propiedad desconocida 'box-flex'.  Declaración rechazada. theme-8e11be2702.css:7:232752
+Propiedad desconocida '-moz-flex'.  Declaración rechazada. theme-8e11be2702.css:7:232764
+Propiedad desconocida 'box-pack'.  Declaración rechazada. theme-8e11be2702.css:7:242771
+Propiedad desconocida '-moz-justify-content'.  Declaración rechazada. theme-8e11be2702.css:7:242803
+Propiedad desconocida 'box-align'.  Declaración rechazada. theme-8e11be2702.css:7:242945
+Propiedad desconocida '-moz-align-items'.  Declaración rechazada. theme-8e11be2702.css:7:242969
+Propiedad desconocida 'box-pack'.  Declaración rechazada. theme-8e11be2702.css:7:243748
+Propiedad desconocida '-moz-justify-content'.  Declaración rechazada. theme-8e11be2702.css:7:243780
+Propiedad desconocida 'box-flex'.  Declaración rechazada. theme-8e11be2702.css:7:244068
+Propiedad desconocida '-moz-flex'.  Declaración rechazada. theme-8e11be2702.css:7:244080
+Error al interpretar el valor para 'padding-left'.  Declaración rechazada. theme-8e11be2702.css:7:270365
+Propiedad desconocida 'zoom'.  Declaración rechazada. theme-8e11be2702.css:7:290123
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:47:21161
+Propiedad desconocida '-moz-osx-font-smoothing'.  Declaración rechazada. theme-8e11be2702.css:50:879
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'progid'.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:50:2117
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'progid'.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:50:2280
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'progid'.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:50:2446
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'progid'.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:50:2617
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'progid'.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:50:2786
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:54:550
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:54:10664
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:57:3384
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:57:3531
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:57:3606
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:57:48518
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:57:48782
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:60:3384
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:60:3531
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:60:3606
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:60:48518
+Se esperaba 'none', una URL o una función de filtrado, pero se encontró 'Alpha('.  Error al interpretar el valor para 'filter'.  Declaración rechazada. theme-8e11be2702.css:60:48782
+Error al interpretar el valor para 'animation-delay'.  Declaración rechazada. theme-8e11be2702.css:60:64767
+Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:60:64777
+Propiedad desconocida '-moz-box-shadow'.  Declaración rechazada. theme-8e11be2702.css:60:96851
+Propiedad desconocida '-moz-box-shadow'.  Declaración rechazada. theme-8e11be2702.css:60:98874
+Pseudo-clase o pseudo-elemento desconocido '-ms-input-placeholder'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:60:112114
+Propiedad desconocida 'scrollbar-face-color'.  Declaración rechazada. theme-8e11be2702.css:60:115069
+Propiedad desconocida 'scrollbar-track-color'.  Declaración rechazada. theme-8e11be2702.css:60:115099
+Error al interpretar el valor para 'color'.  Declaración rechazada. theme-8e11be2702.css:60:120243
+Error al interpretar el valor para 'color'.  Declaración rechazada. theme-8e11be2702.css:60:120902
+Error al interpretar el valor para '-webkit-box-flex'.  Declaración rechazada. theme-8e11be2702.css:60:125117
+Pseudo-clase o pseudo-elemento desconocido '-ms-input-placeholder'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:60:131479
+Pseudo-clase o pseudo-elemento desconocido '-ms-input-placeholder'.  Juego de reglas ignoradas debido a un mal selector. theme-8e11be2702.css:60:133639
+Propiedad desconocida '-moz-border-radius'.  Declaración rechazada. theme-8e11be2702.css:60:135023
+Se esperaba una declaración, pero se encontró 'display'.  Ignorado hasta la siguiente declaración. theme-8e11be2702.css:60:135176
+Se esperaba una declaración, pero se encontró 'display'.  Ignorado hasta la siguiente declaración. theme-8e11be2702.css:60:135780
+Propiedad desconocida '-moz-osx-font-smoothing'.  Declaración rechazada. theme-8e11be2702.css:64:751
+Propiedad desconocida '-moz-osx-font-smoothing'.  Declaración rechazada. font-awesome-preload.css:20:29

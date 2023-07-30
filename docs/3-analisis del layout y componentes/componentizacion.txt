@@ -1,0 +1,3 @@
+mobile:
+
+considero que todo lo que está por encima de la primera foto de una guitarra son 2 headers (semánticamente posible)

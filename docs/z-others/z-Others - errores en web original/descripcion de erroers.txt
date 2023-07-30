@@ -1,0 +1,10 @@
+*********
+Problemas
+*********
+
+web viva (ha habido cambios desde la última vez)
+en funcion del navegador me ha parecido ver que el comportamiento cambia (elementos distintos)
+
+hay muchos errores que llevan a que muchos estilos css no se lleguen a aplicar (log de errores en fichero a parte, capturas en fichero a parte). 
+Le da un aspecto "simplón" a los elementos gráficos de la web
+

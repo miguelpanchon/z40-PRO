@@ -1,0 +1,61 @@
+*******************
+*******************
+Componentes: comento sobre la version "mobile" (luego adapto tablet y desktop)
+*******************
+*******************
+
+
+***********************************
+2 headers
+***********************************
+lo primero primero que aparece es una tira negra y otra blanca conteniendo enlaces -> lo considero 2 headers (dos porque tendrán estilos distintos)
+no necesitan heding necesariamente
+
+
+***********************************
+slider + imagen
+***********************************
+lo siguiente que hay son dos imágenes: Guitarras Paco Castillo / Pianos Privia (slider de dos elementos) y Motu M4. 
+(En versiones posteriores a la de captura de pantalla, el slider contiene más elementos todavía... de momento lo ignoro)
+
+el slider lo considero un article (article="product card" en la documentacion sobre html semantico)
+dentro incluyo figure -> img y p para hacerlo más semántico
+
+lo siguiente es una imagen de un interfaz de audio Motu M4 -> article. Dentro incluyo un boton (es falso, no hace nada). Toda la imagen es un link.
+
+
+************************************
+secciones de productos -> sections
+************************************
+
+lo siguiente es un conjunto de secciones de productos agrupados por categoría. Considero una seccion cada una (no tiene sentido por sí misma), 
+y está poblada de articles (product card, uno de los usos semánticos típicos).
+Hay un texto para cada uno, lo hago heading H2
+
+
+*************************************************
+titulo + texto -> seccion que incluye un artículo
+*************************************************
+como el texto con el título tiene sentido en sí mismo (es una explicación que lo contiene todo, sin necesidad de referenciar a otras partes de la web o de otras webs)
+es un artículo
+
+
+*********************************************
+"+info" -> seccion que contiene un accordeon
+*********************************************
+
+
+
+
+
+
+
+
+
+
+
+siguientes pasos:
+
+incorporar feedback de Daniel
+codificar los links
+formatear componentes

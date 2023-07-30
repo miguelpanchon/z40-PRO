@@ -1,0 +1,11 @@
+/* pc */
+
+@media screen and (min-width:600px){
+  body {
+    background-color:rgb(108, 58, 5);
+    background-image: radial-gradient(whitesmoke,rgb(213, 132, 100))}
+  
+  nav {display:none;}
+
+
+} 
