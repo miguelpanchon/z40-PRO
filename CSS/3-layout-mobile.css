@@ -11,9 +11,14 @@
    --letra-color: orange;
     } 
 
+.mobile-no {
+  display:none;
+}
+
+
   /* layout */
   .header1{
-    width:98svw;
+    width:100;
     height: 300px;
     display:flex; 
     flex-direction:row;
@@ -38,11 +43,11 @@
   
     
   .header1_img1 {
-    width:100px;
+    width:min(90px, 25svw);
   }
 
   .header1_img2{
-    width:25px;
+    width:min(15px, 10svw);
   }
 
   header>p>span {
@@ -57,30 +62,36 @@
     padding:2px;
   };
   .header2>div>.img1 {
-    width:30px;
+    width:5svw;
   }
   .header2>div>.img2 {
-    width:30px;
+    width:5svw;
   }
   .header2>div>.img3 {
-    width:90px;
-    padding:2px;
+    width:25svw;
+    /* padding:2px; */
   }
 
   .header2>div>.img4 {
-    width:30px;
-    padding:2px;
+    width:5svw;
+    /* padding:2px; */
   }
 
   .header2>div>.img5 {
-    width:30px;
-    padding:2px;
+    width:5svw;
+    /* padding:2px; */
   }
+
+  .letter-size {
+    font-size:small;
+  }
+
+
   .slider>img {
-    width:100% ;
+    width:95% ;
   } 
   .slider2>img {
-    width:100%;
+    width:95%;
   }
 
   /* esto crea el espacio debajo del título de la seccion  */
@@ -88,8 +99,8 @@
     padding-bottom:5px;
     text-align:center;  
   }
-
-
+/* header2 end  *************************
+productos start ************************ */
   .productos-grid-parent {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -202,9 +213,18 @@
       height:auto;
     }
 
+    .product-font-size {
+      font-size: medium;
+    }
+
+
+    .centrado-texto {
+      text-align:center;
+    }
+
 
     .stockmusical {
-      padding-bottom:40px;
+      padding-bottom:11px;
       padding-left:25px;
       padding-right:25px; 
       text-align: justify;
@@ -215,7 +235,8 @@
    .mas-info>a {
     border: 10px;  
     border-color:solid green;
-    /* padding:10px; */
+    padding-left:7svw;
+    padding-right:3svw;
     color:var(--letra-oscura);
     text-decoration: none; 
     font-weight: 700;
@@ -233,7 +254,7 @@
 .jupiter-mapex-schecter {
   display:flexbox;
   flex-direction: row;
-  width:95vw;
+  width:100vw;
   display:flex; 
   justify-content:space-evenly;
   align-items: center;
@@ -263,8 +284,13 @@
   padding-top:10px;
     /* padding-left:5px;
     padding-right:5px; */
-  padding-bottom:15px;  
+  /* padding-bottom:15px;   */
  }
+
+.aprovecha {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
 
  .liquidaciones {
   display:flexbox;
@@ -273,28 +299,26 @@
   display:flex; 
   justify-content:space-evenly;
   align-items: center;
-  align-content: center;*/
-  background-color:darkcyan;
+  align-content: center;
+  /* background-color:darkcyan; */
   font-size:10px;
+  margin-left:3svw;
   }
 
+
+  
   li{
-    /* align-items: center;
-    align-content: center; */
     background-color:var(--fondo-clarito);
-    border: 2px;
     border-color:gold;
     border-style:solid;
     border-radius:10px;
     border:grey solid;
-
   }
 
 
  .dunlop, .skytec, .corneta-sib {
   align-items:center;
   align-content:center;
-  height: auto;
   width:25svw;
   padding-top:10px;
   /* padding-left:5px;
@@ -302,7 +326,6 @@
  }
 
  .dunlop .skytec .corneta-sib{
-  background-color:chartreuse;
   width:22svv;
   border: 2px;
   border-color:var grey;
@@ -329,11 +352,15 @@ truco{
   color:var(--letra-clarita);
 }
 
+.texto-linea-formato {
+  margin-top:20px;
+}
+
 .linea1 {
   width:90%;
   border: 1px;
   border-color:grey;
-  margin-top:30px;
+  margin-top:5px;
   margin-bottom: 10px;
   margin-left:5svw;
   border-style:solid; 
@@ -343,7 +370,7 @@ truco{
 .marcas-destacadas {
   display:flexbox;
   flex-direction: row;
-  width:95vw;
+  width:99vw;
   display:flex; 
   justify-content:space-evenly;
   align-items: center;
@@ -400,7 +427,7 @@ width: 99 svw;
   font-size:larger;
 }
 .container{
-  margin: 1px;
+  margin: 5svw;
   width:95svw;
   height:auto;
   background-color:var(--fondo-clarito);
