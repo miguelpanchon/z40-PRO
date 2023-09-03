@@ -11,8 +11,9 @@
   <link rel="stylesheet" href="./CSS/2-styles.css">
   <!-- las media queries que se vayan a considerar en el proyecto -->
   <link rel="stylesheet" href="./CSS/3-layout-mobile.css">
-  <link rel="stylesheet" href="./CSS/4-layout-tablet.css">
-  <link rel="stylesheet" href="./CSS/5-layout-pc.css">
+  <link rel="stylesheet" href="./CSS/4-layout-mobile-plus.css">
+  <link rel="stylesheet" href="./CSS/5-layout-tablet.css">
+  <link rel="stylesheet" href="./CSS/6-layout-pc.css">
 
   <title>MP's integración </title>
 </head>
@@ -21,12 +22,12 @@
   <!-- linea negra start**************** -->
   <header class="header1">
     <img class="header1_img1" src="./img/img-manually-downloaded/financia.png" alt="Financia">
-    <p><span>env&iacute;os</span> 24/48hrs <span>gratis</span> +99€ </p>
+    <p class="mobile-no"><span>env&iacute;os</span> 24/48hrs <span class="no-mobile">gratis</span> +99€ </p>
     <p>
       <img class="header1_img2" src="./img/Peeper/e_mail.png" alt="mandar un e-mail">
-    <div class="mobile-no tablet-si">951 879 097</div>
+    <div class="mobile-no tablet-si mobile-plus-si">951 879 097</div>
     <img class="header1_img2" src="./img/Peeper/e_mail2.png" alt="llamar por telefono">
-    <p class="mobile-no tablet-si">Contactar</p>
+    <p class="mobile-no tablet-si mobile-plus-si">Contactar</p>
     </p>
   </header>
   <!-- linea negra fin  ****************
@@ -39,8 +40,8 @@ linea blanca start **************** -->
       <p class="letter-size tablet-no">Buscar</p>
     </div>
 
-    <div class="letter-size logo-position-tablet"><img class="img3"
-        src="./img/img-manually-downloaded/stock-musical-logo-1673443941.jpg" alt="buscar">
+    <div class="letter-size logo-position-tablet mobile-no mobile-plus-yes"><img class="img3"
+        src="./img/img-manually-downloaded/stock-musical-logo-1673443941.jpg" alt="logo">
     </div>
 
 
@@ -51,10 +52,10 @@ linea blanca start **************** -->
 
 
     <div class="letter-size iconos-alineados"><img class="img4" src="./img/capturas/acceder.JPG" alt="buscar">
-      <p class="">Acceder</p>
+      <p class="mobile-no tablet-si">Acceder</p>
     </div>
     <div><img class="img5 iconos-alineados" src="./img/capturas/carrito.JPG" alt="buscar">
-      <p class="letter-size carrito-margen">Carrito</p>
+      <p class="letter-size carrito-margen mobile-no tablet-si">Carrito</p>
     </div>
 
     <!-- seccion sliders start ******************** -->
@@ -146,18 +147,23 @@ stock musical (texto) start **************** -->
 
     <article class="stockmusical">
       <h2 class="centrado-texto tablet-stockmusical-ancho">Stockmusical -</h2>
-      <h2 class="centrado-texto tablet-stockmusical-ancho">Tienda de Instrumentos Musicales Online</h2>
-      En nuestra <strong>tienda online de instrumentos de m&uacute;sica,</strong> somos especialistas en la venta
-      e instrumentos
-      musicales y <strong>guitarras baratas</strong> especialmente para m&uacute;sicos de iniciación
-      y tambien en gamas superiores para niveles de estudio avanzado y profesionales con la mejor relaci&oacute;n
-      calidad precio del mercado aunque se trate de una quitarra artesana o de luthier.
-      Si est&aacute;s pensando comprar <strong>un instrumento musical econ&oacute;mico</strong> o profesional pero
-      tiene dudas, a
-      través de <strong>Stockmusical</strong> podrás comprar un instrumento musical de calidad asesorado por
-      nuestros
-      expertos
-      <strong>¡Tenemos los mejores descuentos y ofertas en instrumentos!</strong>
+      <h2 class="centrado-texto centrado-texto2 tablet-stockmusical-ancho">
+        Tienda de Instrumentos Musicales Online</h2>
+
+      <p class="centrado-text3"> En nuestra <strong>tienda online de instrumentos de m&uacute;sica,</strong> somos
+        especialistas en la venta
+        e instrumentos
+        musicales y <strong>guitarras baratas</strong> especialmente para m&uacute;sicos de iniciación
+        y tambien en gamas superiores para niveles de estudio avanzado y profesionales con la mejor relaci&oacute;n
+        calidad precio del mercado aunque se trate de una quitarra artesana o de luthier.
+        Si est&aacute;s pensando comprar <strong>un instrumento musical econ&oacute;mico</strong> o profesional pero
+        tiene dudas, a
+        través de <strong>Stockmusical</strong> podrás comprar un instrumento musical de calidad asesorado por
+        nuestros
+        expertos
+        <strong>¡Tenemos los mejores descuentos y ofertas en instrumentos!</strong>
+
+      </p>
     </article>
     <!-- stock musical (texto) end ******************)
 +info start ****************** -->
@@ -181,16 +187,17 @@ stock musical (texto) start **************** -->
     <ul class="liquidaciones">
 
       <li class="mobile-no tablet-si rebajados">
-        <img class="dunlop rebajados mobile-no tablet-si" src="./img/Peeper/asset25.jpeg" alt="Ibanez RG460VFM">
+        <img class="skytec dunlop rebajados mobile-no tablet-si" src="./img/Peeper/asset25.jpeg" alt="Ibanez RG460VFM">
         <p class="mobile-no tablet-si">Ibanez RG460VFM </p>
         <p class="mobile-no tablet-si">GUITARRA EL&Eacute;CTRICA</p>
         <p class="mobile-no tablet-si">Serie RG</p>
         <p class="truco">.</p>
-        <p class="precio-liquidaciones">490,00&euro;</p>
+        <p class="precio-liquidaciones mobile-no tablet-si">490,00&euro;</p>
       </li>
 
       <li class="mobile-no tablet-si rebajados">
-        <img class="dunlop rebajados mobile-no tablet-si" src="./img/Peeper/asset27.jpeg" alt="Flauta travesera Alysee">
+        <img class="skytec dunlop rebajados mobile-no tablet-si" src="./img/Peeper/asset27.jpeg"
+          alt="Flauta travesera Alysee">
         <p class="mobile-no tablet-si">FLAUTA TRAVESERA DO MECANISMO MI </p>
         <p class="mobile-no tablet-si">FL-510SE ALYSEE</p>
         <p class="mobile-no tablet-si">DUNLOP</p>
@@ -199,7 +206,7 @@ stock musical (texto) start **************** -->
       </li>
 
       <li class="mobile-no tablet-si rebajados">
-        <img class="dunlop mobile-no tablet-si" src="./img/Peeper/asset28.jpeg"
+        <img class="skytec dunlop mobile-no tablet-si" src="./img/Peeper/asset28.jpeg"
           alt="LANEY LA12C AMPLIFICADOR AC&Uacute;STICO">
         <p class="mobile-no tablet-si">LANEY LA12C AMPLIFICADOR AC&Uacute;STICO</p>
         <p class="truco mobile-no tablet-si"> </p>
@@ -383,13 +390,13 @@ stock musical (texto) start **************** -->
     </footer>
 
     <!-- 1    ******************************* -->
-
-    <div class="ancho100">
-      <span class="mayusculas">
-        <center>CONTACTO</center>
-      </span>
-    </div>
-
+    <footer class="footer4">
+      <div class="ancho100">
+        <span class="mayusculas">
+          <center class="separar">CONTACTO</center>
+        </span>
+      </div>
+    </footer>
     <footer class="footer4">
       <span class="ancho100"></span>
 
@@ -467,6 +474,9 @@ stock musical (texto) start **************** -->
       <span>&gt; M&eacute;todos de Pago </span>
       <span>&gt; Informaci&oacute;n de Env&iacute;o </span>
       <span>&gt; Privacidad y Cookies</span>
+
+
+      <!-- linea de separacion ******* -->
 
       <div class="ancho100">
         <span class="mayusculas">
