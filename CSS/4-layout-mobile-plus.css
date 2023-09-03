@@ -1,6 +1,6 @@
- /* mobile */
+  /* mobile plus (bigger)*/
 
- @media screen and (min-width: 20px){
+@media screen and (min-width: 285px){
   body {
     /* background-color:rgb(231, 220, 27); */
    --padding-categorias:0px;
@@ -9,13 +9,18 @@
    --letra-clarita: white;
    --letra-oscura: black;
    --letra-color: orange;
-   background-color:white;
-   
+   background-color:rgb(76, 205, 53);
     } 
 
 .mobile-no {
   display:none;
 }
+
+.mobile-plus-yes {
+  display:block;
+}
+
+
 
 
   /* layout */
@@ -105,8 +110,8 @@
 productos start ************************ */
   .productos-grid-parent {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 0px;
   
     justify-items:center;
@@ -119,75 +124,85 @@ productos start ************************ */
 
     .grid-item1{
       grid-row-start:1;
-      grid-column:1 ;
-
+      grid-column-start: 1;
+      grid-column-end:1;
       /* padding:var(--padding-categorias) eliminar variable tb, si no hace falta*/
     }
     
     .grid-item7 { 
-      grid-row-start:2;
-      grid-column:1;
+      grid-row-start:1;
+      grid-column-start:2 ;
+      grid-column-end:2;
       padding:var(--padding-categorias);
     }
     
     .grid-item2 {
-    grid-row-start:3;
-    grid-column:1;
+    grid-row-start:2;
+    grid-column-start:1;
+    grid-column-end:1;
     padding:var(--padding-categorias);
   }
     
     .grid-item8 {
-      grid-row-start:4;
-      grid-column:1;
+      grid-row-start:2;
+      grid-column-start:2;
+      grid-column-end:2;
       padding:var(--padding-categorias);
     }
     
     .grid-item3 {
-      grid-row-start:5;
+      grid-row-start:3;
       grid-column-start:1;
       grid-column-end:1;
       padding:var(--padding-categorias);
     }
 
     .grid-item9 {
-      grid-row-start:6;
-      grid-column:1 ;
+      grid-row-start:3;
+      grid-column-start:2;
+      grid-column-end:2;
       padding:var(--padding-categorias);
     }
 
     .grid-item4 {
-      grid-row-start:7;
-      grid-column:1 ;
+      grid-row-start:4;
+      grid-column-start:1;
+      grid-column-end:1;
       padding:var(--padding-categorias);
     }
 
     .grid-item10 {
-      grid-row-start:8;
-      grid-column:1 ;
+      grid-row-start:4;
+      grid-column-start:2;
+      grid-column-end:2;
       padding:var(--padding-categorias);
     }
     
     .grid-item5 {
-        grid-row-start:9;
-        grid-column:1 ;
+        grid-row-start:5;
+        grid-column-start:1;
+        grid-column-end:1;
         padding:var(--padding-categorias);
       }
   
       .grid-item11 {
-        grid-row-start:10;
-        grid-column:1 ;
+        grid-row-start:5;
+        grid-column-start:2;
+        grid-column-end:2;
         padding:var(--padding-categorias);
       }
       
       .grid-item6 {
-        grid-row-start:11;
-        grid-column:1 ;
+        grid-row-start:6;
+        grid-column-start:1;
+        grid-column-end:1;
         padding:var(--padding-categorias);
       }
     
       .grid-item12 {
-        grid-row-start:12;
-        grid-column:1 ;
+        grid-row-start:6;
+        grid-column-start:2;
+        grid-column-end:2;
         padding:var(--padding-categorias);
       }
 
@@ -212,14 +227,6 @@ productos start ************************ */
 
     .centrado-texto {
       text-align:center;
-      font-size:medium;
-    }
-
-    .centrado-texto2 {
-      font-size:small;
-    }
-    .centrado-texto3 {
-      font-size: x-small;
     }
 
 
