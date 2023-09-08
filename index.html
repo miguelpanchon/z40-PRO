@@ -3,6 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- favicon pedido como sugerencia por el profes -->
+  <link rel="icon" type="image/ico" href="./img/favicon/favicon.ico" />
+
+
   <!-- habilitar media queries y responsive design -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Normalizar = "resetear los browser specific styles" -->
@@ -15,7 +19,7 @@
   <link rel="stylesheet" href="./CSS/5-layout-tablet.css">
   <link rel="stylesheet" href="./CSS/6-layout-pc.css">
 
-  <title>MP's integración </title>
+  <title>MP-Proyecto1-RtC</title>
 </head>
 
 <body>
@@ -34,28 +38,26 @@
 linea blanca start **************** -->
   <header class="header2">
     <div><img class="img1 tablet-no" src="./img/flaticon/menu_hamburguesa.png" alt="menu hamburguesa">
-      <p class="letter-size tablet-no">Men&uacute;</p>
+      <p class="letter-size tablet-no pc-no">Men&uacute;</p>
     </div>
-    <div><img class="img2 tablet-no" src="./img/flaticon/buscar.jpg" alt="buscar">
+    <div><img class="img2 tablet-no pc-no" src="./img/flaticon/buscar.jpg" alt="buscar">
       <p class="letter-size tablet-no">Buscar</p>
     </div>
 
-    <div class="letter-size logo-position-tablet mobile-no mobile-plus-yes"><img class="img3"
-        src="./img/img-manually-downloaded/stock-musical-logo-1673443941.jpg" alt="logo">
+    <div class="letter-size logo-position-tablet mobile-no mobile-plus-yes tablet-si pc-si">
+      <img class="img3" src="./img/img-manually-downloaded/stock-musical-logo-1673443941.jpg" alt="logo">
     </div>
 
 
-    <div class="mobile-no tablet-si buscar-box formato-caja">
-      <div class="texto-buscar">Buscar...</div>
+    <div class="mobile-no tablet-si buscar-box formato-caja letter-size">
+      <p class="letter-size">Buscar...</p>
       <img class="img2 tablet-no" src="./img/flaticon/buscar.jpg" alt="buscar">
     </div>
 
 
-    <div class="letter-size iconos-alineados"><img class="img4" src="./img/capturas/acceder.JPG" alt="buscar">
-      <p class="mobile-no tablet-si">Acceder</p>
-    </div>
-    <div><img class="img5 iconos-alineados" src="./img/capturas/carrito.JPG" alt="buscar">
-      <p class="letter-size carrito-margen mobile-no tablet-si">Carrito</p>
+    <div class="letter-size fix-size">
+      <img class="img4" src="./img/capturas/acceder3.png" alt="Acceder">
+      <img class="img5 iconos-alineados" src="./img/capturas/carrito3.png" alt="buscar">
     </div>
 
     <!-- seccion sliders start ******************** -->
@@ -182,79 +184,81 @@ stock musical (texto) start **************** -->
     </div>
 
     <!-- siguiente sección -->
+    <div class="mobile-no mobile-plus-yes tablet-si">
+      <p class="aprovecha">Aprovecha nuestras liquidaciones</p>
+      <ul class="liquidaciones">
 
-    <p class="aprovecha">Aprovecha nuestras liquidaciones</p>
-    <ul class="liquidaciones">
+        <li class="mobile-no tablet-si rebajados">
+          <img class="dunlop mobile-no tablet-si" src="./img/Peeper/asset25.jpeg" alt="Ibanez RG460VFM">
+          <p class="mobile-no tablet-si pc-si">Guitarra </p>
+          <p class="mobile-no tablet-si pc-si">IBANEZ</p>
+          <p class="mobile-no tablet-si pc-si">RG460VFM</p>
+          <p class="mobile-no tablet-si pc-si">Serie RG</p>
+          <p class="precio-liquidaciones mobile-no tablet-si pc-si">490,00&euro;</p>
+        </li>
 
-      <li class="mobile-no tablet-si rebajados">
-        <img class="skytec dunlop rebajados mobile-no tablet-si" src="./img/Peeper/asset25.jpeg" alt="Ibanez RG460VFM">
-        <p class="mobile-no tablet-si">Ibanez RG460VFM </p>
-        <p class="mobile-no tablet-si">GUITARRA EL&Eacute;CTRICA</p>
-        <p class="mobile-no tablet-si">Serie RG</p>
-        <p class="truco">.</p>
-        <p class="precio-liquidaciones mobile-no tablet-si">490,00&euro;</p>
-      </li>
+        <li class="mobile-no tablet-si rebajados">
+          <img class="dunlop mobile-no tablet-si" src="./img/Peeper/asset28.jpeg"
+            alt="LANEY LA12C AMPLIFICADOR AC&Uacute;STICO">
+          <p class="mobile-no tablet-si pc-si">Amplif.</p>
+          <p class="mobile-no tablet-si pc-si">Ac&uacute;stico</p>
+          <p class="mobile-no tablet-si pc-si">LANEY</p>
+          <p class="mobile-no tablet-si pc-si"></p>LA12C</p>
+          <p class="precio-liquidaciones mobile-no tablet-si pc-si">80,00&euro;</p>
+        </li>
 
-      <li class="mobile-no tablet-si rebajados">
-        <img class="skytec dunlop rebajados mobile-no tablet-si" src="./img/Peeper/asset27.jpeg"
-          alt="Flauta travesera Alysee">
-        <p class="mobile-no tablet-si">FLAUTA TRAVESERA DO MECANISMO MI </p>
-        <p class="mobile-no tablet-si">FL-510SE ALYSEE</p>
-        <p class="mobile-no tablet-si">DUNLOP</p>
-        <p class="truco mobile-no tablet-si">ALYSEE</p>
-        <p class="precio-liquidaciones mobile-no tablet-si">199,00&euro;</p>
-      </li>
-
-      <li class="mobile-no tablet-si rebajados">
-        <img class="skytec dunlop mobile-no tablet-si" src="./img/Peeper/asset28.jpeg"
-          alt="LANEY LA12C AMPLIFICADOR AC&Uacute;STICO">
-        <p class="mobile-no tablet-si">LANEY LA12C AMPLIFICADOR AC&Uacute;STICO</p>
-        <p class="truco mobile-no tablet-si"> </p>
-        <p class="mobile-no tablet-si">.</p>
-        <p class="truco mobile-no tablet-si">.</p>
-        <p class="truco precio-liquidaciones mobile-no tablet-si">80,00&euro;</p>
-      </li>
-
-      <li class="rebajados">
-        <img class="dunlop rebajados" src="./img/Peeper/pedal-Dunlop.jpeg" alt="pedal Dunlop">
-        <p>PEDAL DUNLOP DE </p>
-        <p>VOLUMEN DVP1</p>
-        <p>DUNLOP</p>
-        <p class="truco">.</p>
-        <p class="truco">.</p>
-        <p class="precio-liquidaciones">95,00&euro;</p>
-      </li>
+        <li class="mobile-no tablet-no pc-si rebajados">
+          <img class="dunlop mobile-no tablet-no pc-si" src="./img/Peeper/asset27.jpeg" alt="Flauta travesera Alysee">
+          <p class="mobile-no tablet-no pc-si">Flauta</p>
+          <p class="mobile-no tablet-no pc-si">Travesera </p>
+          <p class="mobile-no tablet-no pc-si">ALYSEE</p>
+          <p class="mobile-no tablet-no pc-si">FL-510SEC</p>
+          <p class="precio-liquidaciones mobile-no tablet-no pc-si">199,00&euro;</p>
+        </li>
 
 
 
-      <li class="rebajados">
-        <img class="skytec dunlop rebajados" src="./img/Peeper/skytec.jpeg" alt="altavoces skytec">
-        <p>SKYTEC SPD-8V</p>
-        <p>CONJUNTO ACTIVO</p>
-        <p>8" USB VHF</p>
-        <p>SKYTEC</p>
-        <p>.</p>
-        <p class="precio-liquidaciones">125,00&euro;</p>
-      </li>
-      <li>
-        <img class="corneta-sib dunlop rebajados" src="./img/Peeper/corneta.jpeg" alt="corneta sib">
-        <p>CORNETA SIB</p>
-        <p>LACADA 2 LLAVES </p>
-        <p>DESAGÜE-CR.</p>
-        <p>ALYSEE</p>
-        <p>.</p>
-        <p class="precio-liquidaciones">135,00&euro;</p>
-      </li>
+        <li class="rebajados">
+          <img class="dunlop rebajados" src="./img/Peeper/pedal-Dunlop.jpeg" alt="pedal Dunlop">
+          <p>Pedal de </p>
+          <p>Volumen </p>
+          <p>DUNLOP</p>
+          <p>DVP1</p>
+          <p class="precio-liquidaciones">95,00&euro;</p>
+        </li>
 
 
-    </ul>
+
+        <li class="rebajados">
+          <img class="skytec dunlop rebajados" src="./img/Peeper/skytec.jpeg" alt="altavoces skytec">
+          <p>Alt. activos</p>
+          <p>SKYTEC</p>
+          <p>8" USB VHF</p>
+          <p>SPD-8V</p>
+
+          <p class="precio-liquidaciones">125,00&euro;</p>
+        </li>
+        <li class="rebajados">
+          <img class="skytec dunlop rebajados" src="./img/Peeper/corneta.jpeg" alt="corneta sib">
+          <p>Corneta SIB</p>
+          <p>ALYSEE</p>
+          <p>DESAGÜE-CR.</p>
+          <p>2 Llaves</p>
+          <p class="precio-liquidaciones">135,00&euro;</p>
+        </li>
+
+      </ul>
+    </div>
+
     <!-- cambio de seccion  -->
     <section class="marcas-destacadas">
       <!--  linea separadora */ -->
       <div class="linea2"></div>
-      <h1>NUESTRAS MARCAS DE INSTRUMENTOS DESTACADAS</h1>
-      <h2>Selección de fabricantes y marcas de instrumentos de música de calidad
-        y prestigio con precios económicos y rebajados.</h2>
+      <div>
+        <h1 class="marcas-h1">NUESTRAS MARCAS DE INSTRUMENTOS DESTACADAS</h1>
+        <h2 class="marcas-h2">Selección de fabricantes y marcas de instrumentos de música de calidad
+          y prestigio con precios económicos y rebajados.</h2>
+      </div>
       <!-- img empaquetados en 2 grupos de 6 imagenes en el original  -->
       <div class="grupo-imagenes">
         <img src="./img/Peeper/asset45.jpeg" alt="Admira">
@@ -283,7 +287,9 @@ stock musical (texto) start **************** -->
           <img class="imagen-articulo-blog" src="./img/Peeper/asset57.jpeg" alt="Persona tocando el ukelele">
           <h3 class="h3-articulo-blog">Famosos y m&uacute;sicos que tocan el Ukelele</h3>
           <div class="linea3"></div>
-          <p>Desde que existe el ukelele, docenas de artistas no han podido resistirse a tocar uno de estos magnificos
+
+          <p class="blog-text-size">Desde que existe el ukelele, docenas de artistas no han podido resistirse a tocar
+            uno de estos magnificos
             instrumentos de cuerda pero, ¿conoces a todos?. Entra en el artículo para alucinar con algunos de los
             artistas
             menos esperados que te hayas podido imaginar. <a
@@ -297,7 +303,8 @@ stock musical (texto) start **************** -->
           <img class="imagen-articulo-blog" src="./img/Peeper/asset58.jpeg" alt="Tipos de flautas">
           <h3 class="h3-articulo-blog">Tipos de Flautas</h3>
           <div class="linea3"></div>
-          <p>Dentro de la familia de los instrumentos de viento denominados como flautas se pueden encontrar diferentes
+          <p class="blog-text-size">Dentro de la familia de los instrumentos de viento denominados como flautas se
+            pueden encontrar diferentes
             tipos desde mismo instrumento con su propia funcionalidad determinada y por supuesto sonido. Existe una gran
             variedad de tipos de flauta a d&iacute;a de hoy en el mercado llegando encontrar modelos fabricados con
             materiales de todo tipo como puede ser de metal, madera, pl&aacute;stico, cristal y mucho m&aacute;s
@@ -311,7 +318,8 @@ stock musical (texto) start **************** -->
           <img class="imagen-articulo-blog" src="./img/Peeper/asset59.jpeg" alt="Ukelele">
           <h3 class="h3-articulo-blog">¿Qué ukelele comprar? Trucos y consejos</h3>
           <div class="linea3"></div>
-          <p>Son muchos los factores que hay que tener en cuenta a la hora de comprar un ukelele y es por este tipo de
+          <p class="blog-text-size">Son muchos los factores que hay que tener en cuenta a la hora de comprar un ukelele
+            y es por este tipo de
             razones por las que a veces se complica la decisi&oacute;n de adquirir uno en condiciones. Si no sabes que
             ukulele debes comprar a continuaci&oacute;n te mostraremos uno por uno todos los aspectos más importantes
             <a href="https://www.stockmusical.com/blog/ukeleles/que-ukelele-comprar">Read more</a>
@@ -325,7 +333,8 @@ stock musical (texto) start **************** -->
           <img class="imagen-articulo-blog" src="./img/Peeper/asset60.jpeg" alt="Guitarras electricas vintage">
           <h3 class="h3-articulo-blog">¿Cu&aacute;les son las mejores guitarras el&eacute;ctricas vintage?</h3>
           <div class="linea3"></div>
-          <p>¿Est&aacute;s barajando la posibilidad de comprar una guitarra el&eacutectrica y las que m&aacutes te
+          <p class="blog-text-size">¿Est&aacute;s barajando la posibilidad de comprar una guitarra el&eacutectrica y las
+            que m&aacutes te
             llaman
             la atención son las
             de estilo vintage?. No nos extra&ntilde;a que te hayas enamorado con estos dise&ntildeos tan particulares.
@@ -340,7 +349,6 @@ stock musical (texto) start **************** -->
 
       </div>
     </section>
-
   </main>
 
   <footer class="footers">
