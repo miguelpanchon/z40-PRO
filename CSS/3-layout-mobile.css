@@ -20,7 +20,7 @@
 
   /* layout */
   .header1{
-    width:100;
+    width:100svw;
     height: 300px;
     display:flex; 
     flex-direction:row;
@@ -31,7 +31,7 @@
     }
 
   .header2{
-    width:100;
+    width:100svw;
     height: 300px;
     display:flex; 
     flex-direction:row;
@@ -58,6 +58,7 @@
 
   .header2{
     padding:5px;
+    width:100svw;
   }
 
   .header2>div {
@@ -75,18 +76,23 @@
   }
 
   .header2>div>.img4 {
-    width:5svw;
+   width:10svw;
+    height:auto; 
     /* padding:2px; */
   }
 
   .header2>div>.img5 {
-    width:5svw;
+    width:10svw;
     /* padding:2px; */
   }
 
   .letter-size {
     font-size:small;
   }
+
+.letter-size2 {
+  font-size:small;
+}
 
 
   .slider>img {
@@ -100,6 +106,7 @@
   .seccion-productos > h3 { 
     padding-bottom:5px;
     text-align:center;  
+    width:100svw;
   }
 /* header2 end  *************************
 productos start ************************ */
@@ -108,7 +115,7 @@ productos start ************************ */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
     grid-gap: 0px;
-  
+    width:100svw;
     justify-items:center;
     /* background-color: pink; */
     padding-top:20px;
@@ -228,6 +235,7 @@ productos start ************************ */
       padding-left:25px;
       padding-right:25px; 
       text-align: justify;
+      width:100svw;
 }
 
 
@@ -254,7 +262,7 @@ productos start ************************ */
 .jupiter-mapex-schecter {
   display:flexbox;
   flex-direction: row;
-  width:100vw;
+  width:100svw;
   display:flex; 
   justify-content:space-evenly;
   align-items: center;
@@ -263,7 +271,7 @@ productos start ************************ */
   }
 
  .jupiter {
-  width:95vw;
+  width:100svw;
   height:auto;
   padding-top:10px;
   /* padding-left:5px;
@@ -271,7 +279,7 @@ productos start ************************ */
  }
 
  .mapex {
-  width:95vw;
+  width:100svw;
   height:auto;
   padding-top:10px;
   /* padding-left:5px;
@@ -279,7 +287,7 @@ productos start ************************ */
   }
 
  .schecter {
-  width: 95vw;
+  width: 100svw;
   height: auto;
   padding-top:10px;
     /* padding-left:5px;
@@ -290,19 +298,19 @@ productos start ************************ */
 .aprovecha {
   margin-bottom: 10px;
   margin-top: 20px;
+  width:100svw;
 }
 
  .liquidaciones {
   display:flexbox;
   flex-direction: row;
-  width:95vw;
+  width:100svw;
   display:flex; 
   justify-content:space-evenly;
   align-items: center;
   align-content: center;
   /* background-color:darkcyan; */
-  font-size:10px;
-  margin-left:3svw;
+    /* margin-left:1svw; */
   }
 
 
@@ -321,11 +329,12 @@ productos start ************************ */
   align-content:center;
   width:25svw;
   padding-top:10px;
+  font-size:xx-small;
   /* padding-left:5px;
   padding-right:5px;  */
  }
 
- .dunlop .skytec .corneta-sib{
+ /* .dunlop .skytec .corneta-sib{
   width:22svv;
   border: 2px;
   border-color:var grey;
@@ -333,7 +342,7 @@ productos start ************************ */
   margin-bottom: 10px;
   border-style:solid; 
   border-radius: 25px;
- }
+ } */
   /* .skytec {
   background-color:deeppink;
   width:22svv;
@@ -590,6 +599,7 @@ padding-right: 5 px;
       
       .separar {
           padding-top:20px;
+          font-size:large;
       }
       
       .footer4 {

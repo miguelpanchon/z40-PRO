@@ -64,6 +64,7 @@ header>p>span {
 
 .header2{
   /* padding:5px; */
+  height:auto;
 }
 
 .header2>div {
@@ -80,18 +81,21 @@ header>p>span {
 }
 
 .header2>div>.img4 {
-  width:5svw;
-  height:23px;
-}
+  width:4svw;
+ }
 
 .header2>div>.img5 {
-  width:5svw;
-  height:23px;
-}
+  width:4svw;
+ }
 
 .letter-size {
-  font-size:smaller;
+  font-size:small; 
 }
+
+.fix-size {
+  /* height: 15px; */
+}
+
 .buscar-box {
   border-radius: 8px 8px 8px 8px;
   -moz-border-radius: 8px 8px 8px 8px;
@@ -338,7 +342,7 @@ font-size:small;
 li{
   /* align-items:normal; */
   /* border: 2px; */
-  height: 280px;
+  height: auto;
   border-color:gold;
   border-style:solid;
   border-radius:10px;
@@ -347,17 +351,17 @@ li{
 }
 
 
-.dunlop, .skytec, .corneta-sib .rebajados{
+.dunlop {
 align-items:center;
 align-content:center;
 /* flex-grow:1; */
-width:15svw;
-height: 10svh;
+width:10svw;
+height: auto;
 border: 0px;
-padding-top:30px;
-padding-bottom: 10px;
+/* padding-top:30px;
+padding-bottom: 30px;
 padding-left: -10px;
-padding-right: -10px;
+padding-right: -10px; */
 
 border-color:var grey;
 border-style:solid; 
@@ -379,10 +383,12 @@ width:22svv;
 .precio-liquidaciones {
   color:var(--letra-color);
   font-size:medium;
+  padding-bottom: 20px;
 }
 
 truco{
 color:white;
+
 }
 
 .texto-linea-formato {
@@ -483,7 +489,7 @@ grid-row-gap: 2px;
   align-items:center;
   justify-content:start;
   width: 15svw;
-  height: auto;
+  height:auto;
   font-size:2svw;
   font-family:sans-serif;
 }
@@ -501,6 +507,9 @@ grid-row-gap: 2px;
 padding-right: 0 px;
 }
 
+.blog-text-size {
+  font-size:medium;
+}
   .linea3 {
     width:50%;
     border: 1px;

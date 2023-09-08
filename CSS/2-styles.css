@@ -19,7 +19,8 @@
   --letra-clarita: white;
   --letra-oscura: black;
   --letra-color: orange;
-
+  /* sugerencia del profe (Daniel) */
+  overflow-x: hidden; 
 }
 /* añadidos a mano */
 ul{

@@ -23,6 +23,7 @@
 
 
 
+
   /* layout */
   .header1{
     width:100;
@@ -352,7 +353,7 @@ productos start ************************ */
  
   .precio-liquidaciones {
     color:var(--letra-color);
-    font-size:medium;
+    font-size:large;
   }
 
 truco{
@@ -477,6 +478,12 @@ width: 99 svw;
 .box > p {
 padding-right: 5 px;
 }
+
+.blog-text-size {
+  font-size:smaller;
+}
+
+
 
     .linea3 {
       width:50%;
