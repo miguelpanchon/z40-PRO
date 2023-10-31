@@ -2,7 +2,6 @@
 
 @media screen and (min-width: 285px){
   body {
-    /* background-color:rgb(231, 220, 27); */
    --padding-categorias:0px;
    --fondo-clarito: white;
    --fondo-oscuro: black;
@@ -10,6 +9,17 @@
    --letra-oscura: black;
    --letra-color: orange;
    background-color:rgb(76, 205, 53);
+   --header-span-color:orange;
+   --mas-info-border-color:solid green;
+   --mas-info-a-p-boder-color:grey;
+  --li-border-color:gold; 
+  --li-border:grey solid; 
+  --dunlop-border-color:grey;
+ --corneta-sib-back-color:dodgerblue; 
+  --linea1-border-color: grey;
+ --linea3-border-color:grey;
+ --footers-background: black;
+ --footer4-border-color:grey;
     } 
 
 .mobile-no {
@@ -58,8 +68,10 @@
   }
 
   header>p>span {
-    color:orange;
+    color:var(--header-span-color);
   }
+
+  
 
   .header2{
     padding:5px;
@@ -113,11 +125,8 @@ productos start ************************ */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 0px;
-  
     justify-items:center;
-    /* background-color: pink; */
     padding-top:20px;
-    
     }
 
 
@@ -126,7 +135,6 @@ productos start ************************ */
       grid-row-start:1;
       grid-column-start: 1;
       grid-column-end:1;
-      /* padding:var(--padding-categorias) eliminar variable tb, si no hace falta*/
     }
     
     .grid-item7 { 
@@ -241,7 +249,7 @@ productos start ************************ */
 
    .mas-info>a {
     border: 10px;  
-    border-color:solid green;
+    border-color:var(--mas-info-border-color);
     padding-left:7svw;
     padding-right:3svw;
     color:var(--letra-oscura);
@@ -250,13 +258,13 @@ productos start ************************ */
     width:97Svw;
     text-align:left;
    }
+
+
 .mas-info>a>p {
     border:1px;
-    border-color: grey;
+    border-color: var(--mas-info-a-p-boder-color);
     border-style:solid;
 }
-
-
 
 .jupiter-mapex-schecter {
   display:flexbox;
@@ -307,7 +315,6 @@ productos start ************************ */
   justify-content:space-evenly;
   align-items: center;
   align-content: center;
-  /* background-color:darkcyan; */
   font-size:10px;
   margin-left:3svw;
   }
@@ -316,10 +323,10 @@ productos start ************************ */
   
   li{
     background-color:var(--fondo-clarito);
-    border-color:gold;
+    border-color:var(--li-border-color);
     border-style:solid;
     border-radius:10px;
-    border:grey solid;
+    border:var(--li-border);
   }
 
 
@@ -328,27 +335,21 @@ productos start ************************ */
   align-content:center;
   width:25svw;
   padding-top:10px;
-  /* padding-left:5px;
-  padding-right:5px;  */
  }
 
  .dunlop .skytec .corneta-sib{
   width:22svv;
   border: 2px;
-  border-color:var grey;
+  border-color:var(--dunlop-border-color);
   margin-top:30px;
   margin-bottom: 10px;
   border-style:solid; 
   border-radius: 25px;
  }
-  /* .skytec {
-  background-color:deeppink;
-  width:22svv;
-  }
 
  .corneta-sib {
-   background-color:dodgerblue;
-   width:22svv; */
+   background-color:var(--corneta-sib-back-color);
+   width:22svv; 
  
   .precio-liquidaciones {
     color:var(--letra-color);
@@ -366,13 +367,13 @@ truco{
 .linea1 {
   width:90%;
   border: 1px;
-  border-color:grey;
+  border-color:var(--linea1-border-color);
   margin-top:5px;
   margin-bottom: 10px;
   margin-left:5svw;
   border-style:solid; 
-  
 }
+
 
 .marcas-destacadas {
   display:flexbox;
@@ -382,7 +383,6 @@ truco{
   justify-content:space-evenly;
   align-items: center;
   align-content: center;
-  /* background-color:darkcyan; */
   font-size:10px;
   flex-wrap: wrap;
 }
@@ -447,11 +447,7 @@ width: 99 svw;
 }
 
   .box{
-    /* background-color:#333; */
-   
     padding:2px;
-    /* border-radius:10px;
-    border:grey solid; */
     color:var(--letra-oscura);
     display:flex;
     align-items:center;
@@ -481,7 +477,7 @@ padding-right: 5 px;
     .linea3 {
       width:50%;
       border: 1px;
-      border-color:grey;
+      border-color:var(--linea3-border-color);
       margin-top:15px;
       margin-bottom: 10px;
       margin-left:10%;
@@ -489,7 +485,7 @@ padding-right: 5 px;
     }
 
     .footers {
-      background: black;
+      background: var(--footers-background);
       color: var(--letra-clarita);
       height:auto;
       }
@@ -502,7 +498,6 @@ padding-right: 5 px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr   ;
         grid-template-rows: 1fr;
-        /* gap: 5px; */
         align-self:left;
         align-items:left;
         margin-top: 4px;
@@ -514,7 +509,6 @@ padding-right: 5 px;
           grid-column-start: 6;
           grid-column-end:7;
           padding:var(--padding-categorias);
-      
         }
       
         .grid-item2b{
@@ -569,24 +563,6 @@ padding-right: 5 px;
       
       .ancho100 {
         width:97 svw;
-        /* display:flexbox;
-        flex-direction: column;
-        align-items: left;
-        justify-content: left;
-        align-self:center;
-        align-items:center; 
-        text-align:left; */
-        
-        /*border-bottom: 0px;*/
-       /* border-color:black;
-        border-style:none;
-        width: 95 svw; 
-        /* margin-bottom: 5px; */
-       /* padding-top: 20 px;*/
-       
-        
-      
-        /* background-color: yellow; */
       }
       
       .mayusculas {
@@ -609,7 +585,7 @@ padding-right: 5 px;
         text-align:left; */
         border:0;
         border-bottom: 1px;
-        border-color:grey;
+        border-color:var(--footer4-border-color);
         border-style:solid;
         width: 95 svw;
         text-align:left;
@@ -629,12 +605,10 @@ padding-right: 5 px;
       
       .imagen-footer4 {
         height:10px;
-        /* width: 30px; */
       }
       
       .imagen-check-footer4 {
         height:10px;
-        /* width: 30px; */
       }
       
       .span-footer4 {
@@ -656,13 +630,9 @@ padding-right: 5 px;
       .span-position {
         float:left;
       }
-
-
-
-
-    
+   
 }
-
+}
 
 
 
